@@ -1,0 +1,28 @@
+{
+    "name": "cycling-director",
+    "version": "1.0.0",
+    "description": "Cycling game",
+    "main": "index.js",
+    "repository": "https://github.com/rico79/cycling-director.git",
+    "author": "rico79 <eric.vogt.pro@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.1",
+        "css-loader": "^0.28.7",
+        "file-loader": "^1.1.5",
+        "style-loader": "^0.19.0",
+        "vue-loader": "^13.5.0",
+        "vue-template-compiler": "^2.5.9",
+        "webpack": "^3.9.1"
+    },
+    "dependencies": {
+        "vue": "^2.5.9",
+        "vuetify": "^0.17.3"
+    }
+}
