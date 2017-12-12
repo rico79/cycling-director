@@ -31785,7 +31785,15 @@ var render = function() {
   return _c(
     "v-toolbar",
     [
-      _c("v-toolbar-title", [_vm._v("Cycling Director")]),
+      _c("v-btn", { attrs: { icon: "" } }, [
+        _c("img", {
+          attrs: { src: "/static/img/logo-50.png", alt: "Cycling Director" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("v-toolbar-title", { staticClass: "hidden-xs-only" }, [
+        _vm._v("Cycling Director")
+      ]),
       _vm._v(" "),
       _c("v-spacer"),
       _vm._v(" "),

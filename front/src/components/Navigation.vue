@@ -1,6 +1,9 @@
 <template>
     <v-toolbar>
-        <v-toolbar-title>Cycling Director</v-toolbar-title>
+        <v-btn icon>
+            <img src="/static/img/logo-50.png" alt="Cycling Director">
+        </v-btn>
+        <v-toolbar-title class="hidden-xs-only">Cycling Director</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn icon to="/" exact router>
             <v-icon>home</v-icon>
