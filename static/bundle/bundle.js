@@ -31874,15 +31874,14 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "v-chip",
-    { attrs: { close: "" } },
+    "v-btn",
+    { attrs: { fab: "" } },
     [
       _c("v-avatar", [
         _c("img", {
           attrs: { src: "https://randomuser.me/api/portraits/men/35.jpg" }
         })
-      ]),
-      _vm._v("\n    Rico\n")
+      ])
     ],
     1
   )
