@@ -4,7 +4,7 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 
 import Home from './components/Home.vue'
-import CourseCreator from './components/CourseCreator.vue'
+import Stages from './components/Stages.vue'
 
 Vue.use(VueRouter)
 Vue.use(Vuetify)
@@ -12,7 +12,7 @@ Vue.use(Vuetify)
 // Routes of vue-router
 const routes = [
     { path: '/', component: Home },
-    { path: '/coursecreator', component: CourseCreator },
+    { path: '/stages', component: Stages },
 ];
 
 // view router
