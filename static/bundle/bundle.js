@@ -31784,10 +31784,11 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "v-toolbar",
+    { attrs: { flat: "" } },
     [
-      _c("v-btn", { attrs: { icon: "" } }, [
+      _c("v-btn", { attrs: { fab: "", color: "blue-grey lighten-4" } }, [
         _c("img", {
-          attrs: { src: "/static/img/logo-50.png", alt: "Cycling Director" }
+          attrs: { src: "/static/img/logo-40.png", alt: "Cycling Director" }
         })
       ]),
       _vm._v(" "),

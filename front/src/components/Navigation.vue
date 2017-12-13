@@ -1,7 +1,7 @@
 <template>
-    <v-toolbar>
-        <v-btn icon>
-            <img src="/static/img/logo-50.png" alt="Cycling Director">
+    <v-toolbar flat>
+        <v-btn fab color="blue-grey lighten-4">
+            <img src="/static/img/logo-40.png" alt="Cycling Director">
         </v-btn>
         <v-toolbar-title class="hidden-xs-only">Cycling Director</v-toolbar-title>
         <v-spacer></v-spacer>
